@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+.arrow {
+  display: inline-block;
+  font-size: 17px;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-left: 7px;
+  cursor: pointer;
+}
+.arrow:hover {
+  color: grey;
+}
+.arrow.choosen {
+  transform: rotate(180deg);
+}
+.input-radio {
+  margin-left: 20px;
+}
+.view-gender {
+  display: inline-block;
+  font-size: 10px;
+  color: grey;
+  margin-left: 10px;
+}
+.table-text-right > td {
+  text-align: left;
+}
